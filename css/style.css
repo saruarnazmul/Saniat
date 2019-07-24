@@ -1,0 +1,113 @@
+/* font-family: 'Poppins', sans-serif; */
+@font-face{
+	font-family: HelveticaNeue-LightExt;
+	src: url('../font/HelveticaNeue-LightExt.otf');
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/* header start */
+header{
+	padding: 20px 0;
+	background: url('../images/banner_background.jpg');
+
+}
+.header{
+
+}
+header h1 a{
+	color: white !important;
+	letter-spacing: 10px; 
+	transition: 0.9s;
+}
+header h1 a:hover{
+	text-decoration: none !important;
+	color: yellow !important;
+	transform: rotateY(180deg) !important;
+
+}
+.menu ul{
+	padding: 5px 0;
+}
+.menu ul li a{
+	font-family: HelveticaNeue-LightExt;
+	font-size: 18px;
+    padding: 0 18px;
+    color: white !important;
+}
+.menu ul li a:hover{
+		color: yellow !important;
+		transition: 1s;
+}
+.menu ul li a i{
+	transition: 1s;
+}
+.menu ul li a i:hover{
+	border-radius: 50%;
+	font-size: 25px;
+	transform:rotateY(180deg);
+}
+/* content start */
+.content {
+    margin-top: 133%;
+    padding: 50px;
+    text-transform: uppercase;
+}
+.content h1{
+	font-size: 45px;
+	color: #ffffff;
+	
+
+}
+.content h3{
+	color: #fff800;
+	
+}
+.content p{
+	
+	color: #afafaf;
+}
+.button {
+    margin-bottom: 100px;
+}
+
+.btn-custom{
+	color: #fff800;
+	background: none;
+	border: 1px solid #fff800;
+}
+.btn-custom:hover{
+		background-color: #fff;
+		color: #fff800;
+}
+/* content end */
+/* header end */
+
+/* personal start */
+.about{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 100px 0;
+	background-color: #212121;
+}
+
+.about_content{
+	color: #ffff;
+	margin-top: 60px;
+}
+.about h2{
+	font-size: 19px;
+
+}
+.about p{
+	font-size: 12px;
+	margin-top: 35px;
+}
+.latest_work a{
+	font-size: 13px;
+	color: #fff800;
+}
+
+/* personal start */
